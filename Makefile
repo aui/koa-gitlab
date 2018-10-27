@@ -9,7 +9,6 @@ install:
 
 test:
 	@NODE_ENV=test ./node_modules/mocha/bin/mocha \
-		--harmony-generators \
 		--reporter $(REPORTER) \
 		--timeout $(TIMEOUT) \
 		--require should \
