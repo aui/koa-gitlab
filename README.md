@@ -53,7 +53,7 @@ app.listen(7001);
 
 ```
   @param {Object} options
-    - [String] gitlabHost     host, default is https://gitlab.com
+    - [String] gitlabHost    gitlab host, default is https://gitlab.com
     - [String] clientID      gitlab client ID     // regist in https://gitlab.com/profile/applications
     - [String] clientSecret  gitlab client secret
     - [String] callbackURL   gitlab redirect url

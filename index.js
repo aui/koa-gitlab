@@ -31,7 +31,7 @@ const request = options =>
  * see http://developer.gitlab.com/v3/oauth/#web-application-flow
  *
  * @param {Object} options
- *   - [String] gitlabHost     host, default is https://.com
+ *   - [String] gitlabHost    gitlab host, default is https://.com
  *   - [String] clientID      gitlab client ID
  *   - [String] clientSecret  gitlab client secret
  *   - [String] callbackURL   gitlab callback url
